@@ -12,6 +12,7 @@ h2 {
   text-transform: uppercase;
   color: #5F04C3;
   text-align: center;
+  padding: 5px 3%;
 }
 
 .row {
@@ -32,8 +33,6 @@ p {
   margin-top: 15px;
 }
 
-
-
 .one {
   background-color: #fcff00;
 }
@@ -46,6 +45,13 @@ p {
   background-color: #a5ff00;
 }
 
-img {
-  width: 300px;
+
+@media (min-width: 578px) {
+  .row {
+    display: flex;
+  }
+
+  p {
+    margin-top: 25px;
+  }
 }
