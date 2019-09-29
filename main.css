@@ -1,0 +1,51 @@
+.jumbotron {
+  background-color: #5F04C3 !important;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #5F04C3;
+  text-align: center;
+}
+
+.row {
+  display: block;
+  text-align: center;
+}
+
+p {
+  border: 8px solid #5F04C3;
+  color: #5F04C3;
+  width: 200px !important;
+  height: 200px;
+  text-align: center;
+  box-shadow: 5px 5px 15px #000;
+  line-height: 180px;
+  font-size: 8rem;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+
+
+.one {
+  background-color: #fcff00;
+}
+
+.two {
+  background-color: #57ffc9;
+}
+
+.three {
+  background-color: #a5ff00;
+}
+
+img {
+  width: 300px;
+}
