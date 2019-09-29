@@ -64,6 +64,11 @@ p {
 }
 
 
+.selectedcolor {
+  background-color: #f88379 !important;
+}
+
+
 @media (min-width: 578px) {
   .row {
     display: flex;
