@@ -51,23 +51,21 @@ p {
   margin-top: 15px;
 }
 
-.one {
+#one {
   background-color: #fcff00;
 }
 
-.two {
+#two {
   background-color: #57ffc9;
 }
 
-.three {
+#three {
   background-color: #a5ff00;
 }
-
 
 .selectedcolor {
   background-color: #f88379 !important;
 }
-
 
 @media (min-width: 578px) {
   .row {
@@ -77,4 +75,9 @@ p {
   p {
     margin-top: 25px;
   }
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 30px;
 }
