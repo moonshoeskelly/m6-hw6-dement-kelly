@@ -20,3 +20,13 @@ function addThis () {
 }
 
 allBoxes[0].addEventListener('click', addThis);
+
+//Message on box two click
+var addTwo = document.createElement('h3');
+addTwo.innerHTML = 'DING DING DING - We have a winner';
+
+function addThat () {
+  allBoxes[1].appendChild(addTwo);
+}
+
+allBoxes[1].addEventListener('click', addThat);
